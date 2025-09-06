@@ -18,7 +18,7 @@
   "hero": {
     "title": "Expert Interior & Carpentry Services",
     "subtitle": "Transforming Spaces with Precision & Passion",
-    "description": "With over 15 years of experience and hundreds of satisfied clients, we deliver exceptional carpentry solutions that stand the test of time.",
+    "description": "With over 15 years of experience and hundreds of satisfied clients, we deliver exceptional interior & carpentry solutions that stand the test of time.",
     "primaryCTA": "Get Free Quote",
     "secondaryCTA": "View Projects",
     "backgroundImage": "../public/images/background.jpg"
@@ -62,7 +62,7 @@
       "id": 3,
       "name": "Commercial Projects",
       "icon": "Building",
-      "description": "Professional carpentry for offices, restaurants, retail spaces, and commercial establishments.",
+      "description": "Professional interior & carpentry for offices, restaurants, retail spaces, and commercial establishments.",
       "features": [
         "Office Interior Design",
         "Custom Reception Desks",
@@ -79,7 +79,7 @@
       "id": 4,
       "name": "Repair & Maintenance",
       "icon": "Hammer",
-      "description": "Quick, reliable repair services for all your carpentry needs with same-day service available.",
+      "description": "Quick, reliable repair services for all your interior & carpentry needs with same-day service available.",
       "features": [
         "Door & Window Repair",
         "Furniture Restoration",
@@ -99,7 +99,7 @@
       "title": "Luxury Villa Interior",
       "category": "Residential",
       "location": "Banjara Hills, Hyderabad",
-      "description": "Complete interior carpentry for a 4BHK luxury villa including custom wardrobes, modular kitchen, entertainment units, and study areas. This project showcased our expertise in high-end residential work with premium materials and sophisticated design.",
+      "description": "Complete interior & carpentry for a 4BHK luxury villa including custom wardrobes, modular kitchen, entertainment units, and study areas. This project showcased our expertise in high-end residential work with premium materials and sophisticated design.",
       "image": "/api/placeholder/600/400",
       "gallery": [
         "/api/placeholder/800/600",
@@ -331,7 +331,7 @@
       "title": "15+ Years Experience",
       "description": "Extensive experience across residential and commercial projects with proven track record of excellence.",
       "icon": "Clock",
-      "benefits": ["Expertise in all carpentry types", "Problem-solving skills", "Industry knowledge"]
+      "benefits": ["Expertise in all interior & carpentry types", "Problem-solving skills", "Industry knowledge"]
     },
     {
       "title": "Premium Quality Materials",

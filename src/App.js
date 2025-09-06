@@ -572,8 +572,8 @@ const App = () => {
                   <p className="text-gray-600 font-medium">Professional Experience</p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-lg text-center">
-                  <p className="text-3xl font-bold text-blue-600 mb-2">Est. {businessData.company.established}</p>
-                  <p className="text-gray-600 font-medium">Company Founded</p>
+                  <p className="text-3xl font-bold text-blue-600 mb-2">Since {businessData.company.established}</p>
+                  {/* <p className="text-gray-600 font-medium">Founded</p> */}
                 </div>
               </div>
 
@@ -923,11 +923,11 @@ const App = () => {
           
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="text-gray-400 text-sm text-center md:text-left">
+              {/* <p className="text-gray-400 text-sm text-center md:text-left">
                 &copy; 2024 {businessData.company.name}. All rights reserved. 
-              </p>
+              </p> */}
               <p className="text-gray-400 text-sm text-center md:text-right mt-2 md:mt-0">
-                Crafted with passion in {businessData.company.location} | Est. {businessData.company.established}
+                Crafted with passion in {businessData.company.location} | Since. {businessData.company.established}
               </p>
             </div>
             <div className="flex justify-center items-center mt-4 space-x-6">
@@ -935,10 +935,10 @@ const App = () => {
                 <Award className="h-4 w-4 mr-1" />
                 Premium Quality Guaranteed
               </div>
-              <div className="flex items-center text-amber-400 text-sm">
+              {/* <div className="flex items-center text-amber-400 text-sm">
                 <CheckCircle className="h-4 w-4 mr-1" />
                 Fully Licensed & Insured
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
