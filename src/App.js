@@ -70,8 +70,63 @@ const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Thank you ${formData.name}! We will contact you within 24 hours.`);
+    
+    // Get phone number from businessData (remove any formatting)
+    const whatsappNumber = businessData.company.phone.replace(/[^\d]/g, '');
+    
+    // Create WhatsApp message with form data
+    const message = `Hi! I'm interested in your carpentry services.
+
+  *Contact Details:*
+  Name: ${formData.name}
+  Phone: ${formData.phone}
+  ${formData.email ? `Email: ${formData.email}` : ''}
+
+  ${formData.service ? `*Service Required:* ${formData.service}` : ''}
+
+  ${formData.message ? `*Project Details:*
+  ${formData.message}` : ''}
+
+  Looking forward to hearing from you!`;
+
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(message);
+    
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    
+    // Open WhatsApp in new tab
+    window.open(whatsappUrl, '_blank');
+    
+    // Clear form after sending
     setFormData({ name: '', phone: '', email: '', service: '', message: '' });
+  };
+
+  // Alternative version if you want to redirect in the same tab:
+  const handleSubmitSameTab = (e) => {
+    e.preventDefault();
+    
+    const whatsappNumber = businessData.company.phone.replace(/[^\d]/g, '');
+    
+    const message = `Hi! I'm interested in your carpentry services.
+
+  *Contact Details:*
+  Name: ${formData.name}
+  Phone: ${formData.phone}
+  ${formData.email ? `Email: ${formData.email}` : ''}
+
+  ${formData.service ? `*Service Required:* ${formData.service}` : ''}
+
+  ${formData.message ? `*Project Details:*
+  ${formData.message}` : ''}
+
+  Looking forward to hearing from you!`;
+
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    
+    // Redirect in same tab
+    window.location.href = whatsappUrl;
   };
 
   const scrollToSection = (sectionId) => {
@@ -729,7 +784,7 @@ const App = () => {
                     type="submit"
                     className="w-full btn-primary text-lg py-4 flex items-center justify-center"
                   >
-                    Send Message & Request Quote
+                    Send Message 
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </button>
                 </form>
