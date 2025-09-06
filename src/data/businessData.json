@@ -1,0 +1,372 @@
+{
+  "company": {
+    "name": "Issac MasterCraft Interiors",
+    "tagline": "Building Dreams with 15 Years of Excellence",
+    "description": "Premium interior & carpentry services delivering exceptional craftsmanship for residential and commercial projects. From custom furniture to complete home renovations, we bring your vision to life with precision, passion, and unmatched attention to detail.",
+    "owner": "Issac Babu Amarthaluri",
+    "experience": "15+ Years",
+    "established": "2009",
+    "location": "Hyderabad, Telangana, India",
+    "phone": "+91 89781 51881",
+    "email": "info@mastercraftcarpentry.com",
+    "website": "www.mastercraftcarpentry.com",
+    "workingHours": {
+      "weekdays": "Mon-Sat: 9:00 AM - 7:00 PM",
+      "weekend": "Sunday: By Appointment"
+    }
+  },
+  "hero": {
+    "title": "Expert Interior & Carpentry Services",
+    "subtitle": "Transforming Spaces with Precision & Passion",
+    "description": "With over 15 years of experience and hundreds of satisfied clients, we deliver exceptional carpentry solutions that stand the test of time.",
+    "primaryCTA": "Get Free Quote",
+    "secondaryCTA": "View Projects",
+    "backgroundImage": "../public/images/background.jpg"
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "Custom Furniture",
+      "icon": "Wrench",
+      "description": "Handcrafted furniture tailored to your space and style preferences with premium materials.",
+      "features": [
+        "Custom Wardrobes & Closets",
+        "Kitchen Cabinets & Islands", 
+        "Dining Tables & Chairs",
+        "TV Units & Entertainment Centers",
+        "Bookshelves & Study Tables",
+        "Bedroom Furniture Sets"
+      ],
+      "price": "Starting ₹15,000",
+      "duration": "2-4 weeks",
+      "category": "Furniture"
+    },
+    {
+      "id": 2,
+      "name": "Home Renovation",
+      "icon": "Home",
+      "description": "Complete home makeovers with modern design, functionality, and attention to detail.",
+      "features": [
+        "Complete Interior Renovation",
+        "Kitchen Remodeling", 
+        "Bathroom Updates & Vanities",
+        "Hardwood Floor Installation",
+        "Wall Paneling & Wainscoting",
+        "Built-in Storage Solutions"
+      ],
+      "price": "Starting ₹2,50,000",
+      "duration": "6-12 weeks",
+      "category": "Renovation"
+    },
+    {
+      "id": 3,
+      "name": "Commercial Projects",
+      "icon": "Building",
+      "description": "Professional carpentry for offices, restaurants, retail spaces, and commercial establishments.",
+      "features": [
+        "Office Interior Design",
+        "Custom Reception Desks",
+        "Retail Display Units", 
+        "Conference Tables & Boardrooms",
+        "Restaurant Furniture",
+        "Commercial Fixtures"
+      ],
+      "price": "Starting ₹5,00,000",
+      "duration": "8-16 weeks",
+      "category": "Commercial"
+    },
+    {
+      "id": 4,
+      "name": "Repair & Maintenance",
+      "icon": "Hammer",
+      "description": "Quick, reliable repair services for all your carpentry needs with same-day service available.",
+      "features": [
+        "Door & Window Repair",
+        "Furniture Restoration",
+        "Cabinet Adjustment & Repair",
+        "Hardware Replacement",
+        "Emergency Fixes",
+        "Preventive Maintenance"
+      ],
+      "price": "Starting ₹500",
+      "duration": "Same Day",
+      "category": "Maintenance"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Luxury Villa Interior",
+      "category": "Residential",
+      "location": "Banjara Hills, Hyderabad",
+      "description": "Complete interior carpentry for a 4BHK luxury villa including custom wardrobes, modular kitchen, entertainment units, and study areas. This project showcased our expertise in high-end residential work with premium materials and sophisticated design.",
+      "image": "/api/placeholder/600/400",
+      "gallery": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600", 
+        "/api/placeholder/800/600"
+      ],
+      "duration": "3 months",
+      "value": "₹8,50,000",
+      "year": "2024",
+      "features": [
+        "Custom Wardrobes with Soft-Close",
+        "Modular Kitchen with Island",
+        "Home Theater Unit",
+        "Study Table with Storage",
+        "Walk-in Closet Design",
+        "Premium Wood Finishing"
+      ],
+      "materials": ["Teak Wood", "Plywood", "Hardware", "Laminates"],
+      "client": "Private Residence",
+      "testimonial": "Exceptional craftsmanship and attention to detail. The team transformed our home beyond our expectations."
+    },
+    {
+      "id": 2,
+      "title": "Modern Office Setup", 
+      "category": "Commercial",
+      "location": "HITEC City, Hyderabad",
+      "description": "Contemporary office interiors for a tech startup including ergonomic workstations, collaborative meeting rooms, and an impressive reception area that reflects the company's innovative culture.",
+      "image": "/api/placeholder/600/400",
+      "gallery": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "duration": "6 weeks",
+      "value": "₹12,00,000",
+      "year": "2024",
+      "features": [
+        "Ergonomic Workstations",
+        "Glass Conference Room", 
+        "Modern Reception Desk",
+        "Collaborative Spaces",
+        "Storage Solutions",
+        "Cable Management System"
+      ],
+      "materials": ["Engineered Wood", "Glass", "Metal Framework", "Laminate"],
+      "client": "Tech Startup",
+      "testimonial": "Professional service from start to finish. They understood our needs perfectly and delivered a modern workspace."
+    },
+    {
+      "id": 3,
+      "title": "Heritage Home Restoration",
+      "category": "Restoration", 
+      "location": "Old City, Hyderabad",
+      "description": "Careful restoration of traditional wooden elements while adding modern functionality to a century-old heritage home. This project required specialized techniques to preserve historical integrity while improving livability.",
+      "image": "/api/placeholder/600/400",
+      "gallery": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "duration": "4 months",
+      "value": "₹6,75,000",
+      "year": "2023",
+      "features": [
+        "Heritage Door Restoration",
+        "Traditional Furniture Revival",
+        "Modern Storage Integration",
+        "Structural Wood Repairs", 
+        "Period-Appropriate Hardware",
+        "Conservation Techniques"
+      ],
+      "materials": ["Reclaimed Teak", "Traditional Hardware", "Natural Finishes"],
+      "client": "Heritage Property Owner",
+      "testimonial": "They preserved the soul of our heritage home while making it functional for modern living."
+    },
+    {
+      "id": 4,
+      "title": "Boutique Restaurant Design",
+      "category": "Commercial",
+      "location": "Jubilee Hills, Hyderabad",
+      "description": "Elegant restaurant interiors featuring custom dining furniture, an impressive bar counter, and decorative elements that create an inviting ambiance for fine dining experiences.",
+      "image": "/api/placeholder/600/400",
+      "gallery": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "duration": "8 weeks",
+      "value": "₹15,25,000",
+      "year": "2023",
+      "features": [
+        "Custom Dining Tables",
+        "Curved Bar Counter",
+        "Display Shelving",
+        "Decorative Wall Panels",
+        "Booth Seating", 
+        "Wine Storage Unit"
+      ],
+      "materials": ["Hardwood", "Engineered Stone", "Metal Accents", "Upholstery"],
+      "client": "Restaurant Owner",
+      "testimonial": "The ambiance they created with their woodwork has significantly enhanced our customers' dining experience."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Mohan Kumar",
+      "role": "Homeowner",
+      "location": "Gandhinager, Hyderabad",
+      "rating": 5,
+      "comment": "Outstanding work! Issac and his team transformed our home with beautiful custom furniture. The attention to detail is remarkable, and they completed everything on time. The quality of craftsmanship exceeded our expectations, and the team was professional throughout the project.",
+      "project": "Complete Home Furnishing",
+      "date": "Sep 2025",
+      "avatar": "/api/placeholder/80/80"
+    },
+    {
+      "id": 2,
+      "name": "Srujana Macharla",
+      "role": "Homeowner", 
+      "location": "Gandhinager, Hyderabad",
+      "rating": 5,
+      "comment": "Professional service from start to finish. They understood our office requirements perfectly and delivered a modern, functional workspace that our employees love. The project was completed within budget and timeline, which is rare in this industry.",
+      "project": "Office Interior Design",
+      "date": "January 2024",
+      "avatar": "/api/placeholder/80/80"
+    },
+    {
+      "id": 3,
+      "name": "Anita Reddy",
+      "role": "Interior Designer",
+      "location": "Banjara Hills, Hyderabad",
+      "rating": 5,
+      "comment": "I've worked with many carpenters, but MasterCraft stands out for their craftsmanship and reliability. They bring designs to life with precision and creativity. Their ability to interpret and execute complex designs is exceptional.",
+      "project": "Luxury Apartment Project",
+      "date": "February 2024", 
+      "avatar": "/api/placeholder/80/80"
+    },
+    {
+      "id": 4,
+      "name": "Suresh Patel",
+      "role": "Restaurant Owner",
+      "location": "Jubilee Hills, Hyderabad",
+      "rating": 5,
+      "comment": "The custom furniture they created for our restaurant has become a talking point among our customers. The quality is exceptional, and their understanding of commercial requirements is impressive. Highly recommended for commercial projects.",
+      "project": "Restaurant Interior",
+      "date": "December 2023",
+      "avatar": "/api/placeholder/80/80"
+    }
+  ],
+  "stats": [
+    {
+      "number": "150+",
+      "label": "Projects Completed",
+      "icon": "Award",
+      "description": "Successfully delivered projects"
+    },
+    {
+      "number": "15+",
+      "label": "Years Experience", 
+      "icon": "Clock",
+      "description": "Industry expertise"
+    },
+    {
+      "number": "200+",
+      "label": "Happy Clients",
+      "icon": "Users",
+      "description": "Satisfied customers"
+    },
+    {
+      "number": "4.9/5",
+      "label": "Average Rating",
+      "icon": "Star",
+      "description": "Client satisfaction score"
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Initial Consultation",
+      "description": "Free on-site consultation to understand your vision, requirements, and budget. We assess the space and discuss design preferences.",
+      "duration": "1-2 hours",
+      "icon": "MessageSquare"
+    },
+    {
+      "step": 2,
+      "title": "Design & Planning",
+      "description": "Detailed design creation with 3D visualization, material selection, and comprehensive project planning.",
+      "duration": "2-3 days",
+      "icon": "PenTool"
+    },
+    {
+      "step": 3,
+      "title": "Quote & Agreement",
+      "description": "Transparent pricing with detailed breakdown, timeline, and terms. No hidden costs, everything clearly defined.",
+      "duration": "1 day",
+      "icon": "FileText"
+    },
+    {
+      "step": 4,
+      "title": "Material Procurement", 
+      "description": "Sourcing premium quality materials from trusted suppliers, ensuring authenticity and durability.",
+      "duration": "1-2 days",
+      "icon": "Package"
+    },
+    {
+      "step": 5,
+      "title": "Manufacturing",
+      "description": "Precision crafting using modern techniques and traditional skills, with regular quality checks throughout.",
+      "duration": "1-4 weeks",
+      "icon": "Hammer"
+    },
+    {
+      "step": 6,
+      "title": "Installation",
+      "description": "Professional installation with minimal disruption to your routine, ensuring perfect fit and finish.",
+      "duration": "1-3 days",
+      "icon": "Settings"
+    },
+    {
+      "step": 7,
+      "title": "Quality Check & Handover",
+      "description": "Final inspection, client walkthrough, and handover with maintenance instructions and warranty.",
+      "duration": "1 day",
+      "icon": "CheckCircle"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "15+ Years Experience",
+      "description": "Extensive experience across residential and commercial projects with proven track record of excellence.",
+      "icon": "Clock",
+      "benefits": ["Expertise in all carpentry types", "Problem-solving skills", "Industry knowledge"]
+    },
+    {
+      "title": "Premium Quality Materials",
+      "description": "We source only the finest materials and use superior craftsmanship techniques for lasting results.",
+      "icon": "Award",
+      "benefits": ["Durability guaranteed", "Premium finishes", "Sustainable materials"]
+    },
+    {
+      "title": "On-Time Delivery",
+      "description": "Committed to meeting deadlines without compromising quality, with transparent project tracking.",
+      "icon": "CheckCircle", 
+      "benefits": ["Reliable timelines", "Project tracking", "No delays"]
+    },
+    {
+      "title": "End-to-End Service",
+      "description": "Complete service from design consultation to final installation and ongoing maintenance support.",
+      "icon": "Wrench",
+      "benefits": ["One-stop solution", "Post-installation support", "Warranty coverage"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Carpentry Excellence Certification",
+      "issuer": "Indian Carpentry Association",
+      "year": "2010"
+    },
+    {
+      "name": "Advanced Woodworking Certificate",
+      "issuer": "Woodworking Institute of India", 
+      "year": "2012"
+    },
+    {
+      "name": "Green Building Materials Certification",
+      "issuer": "Sustainable Construction Council",
+      "year": "2018"
+    }
+  ]
+}
