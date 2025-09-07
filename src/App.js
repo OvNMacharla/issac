@@ -886,7 +886,7 @@ const App = () => {
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div className="p-3 bg-green-50 rounded-lg">
                     <p className="text-2xl font-bold text-green-600">2-4h</p>
-                    <p className="text-xs text-gray-600">Email Response</p>
+                    <p className="text-xs text-gray-600">Response</p>
                   </div>
                   <div className="p-3 bg-blue-50 rounded-lg">
                     <p className="text-2xl font-bold text-blue-600">24h</p>
