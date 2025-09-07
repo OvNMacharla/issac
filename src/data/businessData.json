@@ -37,7 +37,7 @@
         "Bookshelves & Study Tables",
         "Bedroom Furniture Sets"
       ],
-      "price": "Starting ₹15,000",
+      "price": "Starting ₹55,000",
       "duration": "2-4 weeks",
       "category": "Furniture"
     },
@@ -54,8 +54,8 @@
         "Wall Paneling & Wainscoting",
         "Built-in Storage Solutions"
       ],
-      "price": "Starting ₹2,50,000",
-      "duration": "6-12 weeks",
+      "price": "Starting ₹5,00,000",
+      "duration": "6-9 weeks",
       "category": "Renovation"
     },
     {
@@ -71,8 +71,8 @@
         "Restaurant Furniture",
         "Commercial Fixtures"
       ],
-      "price": "Starting ₹5,00,000",
-      "duration": "8-16 weeks",
+      "price": "Starting ₹8,00,000",
+      "duration": "6-8 weeks",
       "category": "Commercial"
     },
     {
@@ -88,7 +88,7 @@
         "Emergency Fixes",
         "Preventive Maintenance"
       ],
-      "price": "Starting ₹500",
+      "price": "Starting ₹2000",
       "duration": "Same Day",
       "category": "Maintenance"
     }
@@ -321,7 +321,7 @@
     {
       "step": 7,
       "title": "Quality Check & Handover",
-      "description": "Final inspection, client walkthrough, and handover with maintenance instructions and warranty.",
+      "description": "Final inspection, client walkthrough, and handover with maintenance instructions.",
       "duration": "1 day",
       "icon": "CheckCircle"
     }
@@ -349,7 +349,7 @@
       "title": "End-to-End Service",
       "description": "Complete service from design consultation to final installation and ongoing maintenance support.",
       "icon": "Wrench",
-      "benefits": ["One-stop solution", "Post-installation support", "Warranty coverage"]
+      "benefits": ["One-stop solution", "Post-installation support"]
     }
   ],
   "certifications": [
